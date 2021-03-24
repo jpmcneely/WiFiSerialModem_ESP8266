@@ -47,10 +47,10 @@ of the things I needed it to do.  For me, this implementation has hit the
 
 The sketch can be loaded using the Arduino IDE.  I have found that the
 configuration represented in the fritzing files will fail to connect to
-the ESP8266 modules I have on hand unless the serial module is diconnected.
+the ESP8266 modules I have on hand unless the serial module is disconnected.
 
 You will need to set up the Arduino IDE to use the ESP8266 boards.  There
-are a number of resources on the internet that can walk you thrugh the 
+are a number of resources on the internet that can walk you through the 
 process.
 
 ## Supported Features
