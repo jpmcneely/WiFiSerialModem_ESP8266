@@ -253,7 +253,7 @@ void defaultEEPROM() {
   EEPROM.write(PIN_POLARITY_ADDRESS, 0x01);
   EEPROM.write(QUIET_MODE_ADDRESS, 0x00);
 
-  setEEPROM("bbs.anachronet.com:23", speedDialAddresses[0], 50);
+  setEEPROM("bbs.anachronet.com:2300", speedDialAddresses[0], 50);
 
   for (int i = 1; i < 10; i++) {
     setEEPROM("", speedDialAddresses[i], 50);
