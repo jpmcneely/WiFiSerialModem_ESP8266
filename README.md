@@ -24,7 +24,7 @@ functionality of a modem using telnet to connect to other machines or
 services.
 
 The modem supports most standard Hayes AT commands, as well as some commands
-that are specific to the implemantation.
+that are specific to the implementation.
 
 ## Why?
 
@@ -133,6 +133,7 @@ If you want a fully-constructed board using the firmware that I based this
 project on, I would suggest the following:
 
 TheOldNet Store
+
 https://www.tindie.com/products/theoldnet/rs232-serial-wifi-modem-for-vintage-computers-v3/
 
 His product is similar in many ways from a software perspective, and has
