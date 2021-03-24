@@ -6,12 +6,15 @@ Copyright (C) 2021 J.P. McNeely under GPLv3 license - AnachroNet.com
 This program is based on the following projects:
 
 https://github.com/ssshake/vintage-computer-wifi-modem
+
 Copyright (C) 2020 Richard Bettridge under GPLv3 license.
 
 https://github.com/RolandJuno/esp8266_modem
+
 Copyright (C) 2016 Paul Rickards <rickards@gmail.com> under GPLv3 license.
 
 https://github.com/jsalin/esp8266_modem
+
 Copyright (C) 2015 Jussi Salin <salinjus@gmail.com> under GPLv3 license.
 
 ## Overview
