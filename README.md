@@ -6,12 +6,15 @@ Copyright (C) 2021 J.P. McNeely under GPLv3 license - AnachroNet.com
 This program is based on the following projects:
 
 https://github.com/ssshake/vintage-computer-wifi-modem
+
 Copyright (C) 2020 Richard Bettridge under GPLv3 license.
 
 https://github.com/RolandJuno/esp8266_modem
+
 Copyright (C) 2016 Paul Rickards <rickards@gmail.com> under GPLv3 license.
 
 https://github.com/jsalin/esp8266_modem
+
 Copyright (C) 2015 Jussi Salin <salinjus@gmail.com> under GPLv3 license.
 
 ## Overview
@@ -21,7 +24,7 @@ functionality of a modem using telnet to connect to other machines or
 services.
 
 The modem supports most standard Hayes AT commands, as well as some commands
-that are specific to the implemantation.
+that are specific to the implementation.
 
 ## Why?
 
@@ -64,7 +67,7 @@ process.
 - Minimal component cost - All the parts are available for less than US$20.
 
 ## Command Set
-
+```
   DIAL HOST            : ATDTHOST:PORT
   SPEED DIAL           : ATDSN (N=0-9)
   SET SPEED DIAL       : AT&ZN=HOST:PORT (N=0-9)
@@ -93,7 +96,7 @@ process.
   ENTER CMD MODE       : +++
   EXIT CMD MODE        : ATO
   REPEAT LAST CMD      : /A (No AT needed)
-
+```
 ## Getting Started
 
 After the hardware is put together, and the sketch is loaded,
@@ -130,9 +133,24 @@ If you want a fully-constructed board using the firmware that I based this
 project on, I would suggest the following:
 
 TheOldNet Store
+
 https://www.tindie.com/products/theoldnet/rs232-serial-wifi-modem-for-vintage-computers-v3/
 
 His product is similar in many ways from a software perspective, and has
 some consideration for PET/C64 functionality.  I have not included any
 functionality for them since this project is meant to support a group of
 machines that does not include any hardware that needs Petscii.
+
+## License
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+   
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+
