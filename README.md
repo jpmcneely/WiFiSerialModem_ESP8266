@@ -136,3 +136,17 @@ His product is similar in many ways from a software perspective, and has
 some consideration for PET/C64 functionality.  I have not included any
 functionality for them since this project is meant to support a group of
 machines that does not include any hardware that needs Petscii.
+
+## License
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+   
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+
