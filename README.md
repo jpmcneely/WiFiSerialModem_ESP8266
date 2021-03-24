@@ -64,7 +64,7 @@ process.
 - Minimal component cost - All the parts are available for less than US$20.
 
 ## Command Set
-
+```
   DIAL HOST            : ATDTHOST:PORT
   SPEED DIAL           : ATDSN (N=0-9)
   SET SPEED DIAL       : AT&ZN=HOST:PORT (N=0-9)
@@ -93,7 +93,7 @@ process.
   ENTER CMD MODE       : +++
   EXIT CMD MODE        : ATO
   REPEAT LAST CMD      : /A (No AT needed)
-
+```
 ## Getting Started
 
 After the hardware is put together, and the sketch is loaded,
