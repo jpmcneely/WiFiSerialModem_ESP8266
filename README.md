@@ -120,14 +120,11 @@ follow these steps:
 ## Where to Buy
 
 You can't - I am not now, nor do I intend to sell the modem.  However, I have
-provided two Fritzing files that you can use to order circuit boards from
-Aisler, or another board maker of your choice.  The R1V1 design uses the
-micro USB port on the ESP8266 to power the circuit.  The R1V2 design uses
-a 7805 regulator to allow connecting a 9V power supply.  Fair warning: you
-should carefully check the power output from the 7805 to make sure it is 5V
-BEFORE connecting the microcontroller.  I suggest using female headers to
-attach the ESP8266 and serial module so that they can be removed/replaced
-easily. 
+provided a Fritzing file that you can use to order circuit boards from
+Aisler, or another board maker of your choice.  The R1V2 design uses the
+micro USB port on the ESP8266 to power the circuit.  I suggest using female
+headers to attach the ESP8266 and serial module so that they can be 
+removed/replaced easily. 
 
 If you want a fully-constructed board using the firmware that I based this
 project on, I would suggest the following:
