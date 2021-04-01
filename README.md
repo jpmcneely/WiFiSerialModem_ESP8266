@@ -62,8 +62,7 @@ process.
 - 'Panic Button' : A momentary switch will change the baud
   rate back to the default (9600 as written).
 - Minimal component count (1 microcontroller, 1 serial module, 5 resistors,
-  4 LEDs, and a momentary SPDT switch - the second design includes a power
-  supply on-board).
+  4 LEDs, and a momentary SPDT switch).
 - Minimal component cost - All the parts are available for less than US$20.
 
 ## Command Set
